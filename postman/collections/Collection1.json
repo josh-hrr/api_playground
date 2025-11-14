@@ -21,5 +21,45 @@
 			},
 			"response": []
 		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "42b500f8-a3c2-438e-8b26-4ebc47b732ad",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "37c5c9e1-a5e6-428e-bcd6-ba3654825929",
+				"type": "text/javascript",
+				"packages": {},
+				"requests": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "fb7c78be-bcd1-4a03-b239-f97d00257112",
+			"key": "test1",
+			"value": "",
+			"type": "default"
+		},
+		{
+			"id": "249ba7ed-510e-455e-9dfc-f0be665d3ac0",
+			"key": "test2",
+			"value": "",
+			"type": "default"
+		}
 	]
 }
